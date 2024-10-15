@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+:root{
+  --red: #e50916;
+  --white:#fff; 
+  --black:#000; 
+  --header-height:70px;
+  --header-height-mobile:150px;
+  --dark-bg:#221f1f;
+  --light-bg:white; 
+  --footer-bg:#373232;
+  --transparent-bg:rgba(20, 20, 20, 0.7);
+  --grey:#2D2D2D;
+  --grey-text:#9B9B9B;
+}
+a{ 
+  text-decoration: none;
+}
+body{
+  background-color: var(--dark-bg);
+}
+
+/* General Button Styling */
+.signin-btn {
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.signin-btn:hover {
+  background-color: #f40612;
+}
+
+.signin-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.5);
+}
+
+/* Aligning the button */
+.auth-section {
+  display: flex;
+  align-items: center;
+}
+
+.auth-section .signin-button {
+  text-decoration: none;
+}
